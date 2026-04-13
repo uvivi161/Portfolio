@@ -3,20 +3,20 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
+  // javascript,
+  // typescript,
+  // html,
+  // css,
+  // reactjs,
+  // redux,
+  // tailwind,
+  // nodejs,
+  // mongodb,
+  // git,
+  // figma,
+  // docker,
+  // meta,
+  // starbucks,
   devNote,
   INNOVIZ,
   tesla,
@@ -30,8 +30,11 @@ import {
   cli,
   meyEden,
   game,
-  threejs,
+  // threejs,
 } from "../assets";
+// import codebeamer from "../assets/tech/codebeamer.png";
+import claude from "../assets/tech/claude.png";
+// import cantata from "../assets/tech/cantata.png";
 
 export const navLinks = [
   {
@@ -67,64 +70,99 @@ const services = [
   },
 ];
 
+// const technologies = [
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+//   {
+//     name: "TypeScript",
+//     icon: typescript,
+//   },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+//   // {
+//   //   name: "Redux Toolkit",
+//   //   icon: redux,
+//   // },
+//   // {
+//   //   name: "Tailwind CSS",
+//   //   icon: tailwind,
+//   // },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+//   // {
+//   //   name: "Three JS",
+//   //   icon: threejs,
+//   // },
+//   {
+//     name: "git",
+//     icon: git,
+//   },
+//   // {
+//   //   name: "genkins",
+//   //   icon: genkins,
+//   // },
+//   // {
+//   //   name: "figma",
+//   //   icon: figma,
+//   // },
+//   {
+//     name: "docker",
+//     icon: docker,
+//   },
+// ];
+
+
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "git",
-    icon: git,
-  },
-  // {
-  //   name: "genkins",
-  //   icon: genkins,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+  { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+  { name: "C#", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+  { name: ".NET Core", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" },
+
+  { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { name: "Angular", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
+  { name: "Vue", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
+
+  { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+
+  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+
+  { name: "Selenium", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
+  { name: "Appium",  icon: "https://cdn.simpleicons.org/appium",},
+
+  { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+
+  { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "GitLab", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" },
+
+  { name: "Jira", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+  { name: "Jenkins", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+
+  { name: "Claude Code", icon: claude },
+
+  { name: "Python",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+  
 ];
+
 
 const experiences = [
   {
