@@ -184,7 +184,7 @@ const experiences = [
     company_name: "INNOVIZ",
     icon: INNOVIZ,
     iconBg: "#060222",
-    date: "Jan 2021 - Feb 2022",
+    date: "2025 - 2026",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
